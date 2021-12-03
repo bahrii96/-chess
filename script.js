@@ -75,3 +75,4 @@ function horse() {
         document.querySelector(`.chess-block[data-x="${+x+1}"][data-y="${+y+2}"]`).classList.add('active')
     }
 }
+ 

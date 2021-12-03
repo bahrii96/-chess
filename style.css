@@ -28,3 +28,18 @@
 .green {
   background-color: green;
 }
+.game {
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
