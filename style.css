@@ -1,0 +1,30 @@
+.text {
+  text-align: center;
+}
+
+#field {
+  width: 320px;
+  height: 320px;
+
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+}
+.chess-block {
+  width: 40px;
+  height: 40px;
+  float: left;
+}
+.bg-black {
+  background: black;
+}
+.active {
+  background-image: url("./horse.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(15, 42, 197, 0.692);
+}
+.green {
+  background-color: green;
+}
