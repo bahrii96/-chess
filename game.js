@@ -20,9 +20,12 @@ function onClickBox(event) {
     
     // console.log(event.target.getAttribute("data-number"));
     let number = ` ${event.target.getAttribute("data-number")}`
-    console.log(number);
-    event.target.textContent = number
+    // console.log(number);
+    // event.target.textContent = number
      
-     
+     if (number % 2 == 0) {
+              event.target.textContent = "x"
+    }
+    else event.target.textContent ="0"
      
 }
