@@ -29,6 +29,7 @@
   background-color: green;
 }
 .game {
+  /* position: relative; */
   width: 300px;
   height: 300px;
   border: 1px solid black;
@@ -38,8 +39,57 @@
   flex-wrap: wrap;
 }
 .box {
+  font-size: 50px;
+  text-align: center;
+  padding-top: 10px;
   width: 100px;
   height: 100px;
   border: 1px solid black;
   box-sizing: border-box;
+  cursor: crosshair;
+}
+
+.box-overlov {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 300px;
+  height: 40px;
+  transform: translateX(-9940px);
+  opacity: 0;
+  transition: all 0.85s;
+}
+.overlov {
+  text-align: center;
+  color: aliceblue;
+  padding-top: 10px;
+  font-size: 18px;
+  /* margin-top: 20px; */
+  top: -195px;
+  position: absolute;
+  width: 300px;
+  height: 80px;
+  background-color: green;
+  margin-left: auto;
+  margin-right: auto;
+  /* transform: translateX(-9940px);
+  opacity: 0;
+  transition: all 1s; */
+}
+.but {
+  top: -150px;
+  position: absolute;
+  left: 130px;
+  size: 0px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+  background-image: url("./restart.png");
+  background-size: contain;
+  cursor: pointer;
+}
+.overlov-acive {
+  transform: translateX(0px);
+  opacity: 0.8;
 }
