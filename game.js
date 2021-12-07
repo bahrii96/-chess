@@ -56,11 +56,13 @@ function retiree(event) {
            
             retireeGame = 'Перемогли хрестики';
             retireeGameOne(retireeGame)
+            
         }
         else if(gameElBox[arr[i][0]].innerHTML == "o" && gameElBox[arr[i][1]].innerHTML == "o" && gameElBox[arr[i][2]].innerHTML == "o") {
            
             retireeGame = 'Перемогли нолики';
             retireeGameOne(retireeGame)
+            
         }
          
     };
